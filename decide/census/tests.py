@@ -14,10 +14,7 @@ class CensusTestExecuted(BaseTestCase):
 
     def tearDown(self):
         super().tearDown()
-    
-    def test_executed(self):
-        register_status('TEST_CENSUS_EXECUTED')
-        
+
 class CensusTestCase(BaseTestCase):
 
     def setUp(self):
